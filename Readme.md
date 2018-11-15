@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Program.cs](./CS/PdfProcessorPrinterOptions/Program.cs) (VB: [Program.vb](./VB/PdfProcessorPrinterOptions/Program.vb))
+<!-- default file list end -->
 # How to use the PDF printer settings
 
 
