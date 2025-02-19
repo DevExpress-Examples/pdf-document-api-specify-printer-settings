@@ -1,15 +1,14 @@
-﻿// Developer Express Code Central Example:
-// How to use the PDF printer settings
+﻿using DevExpress.Pdf;
 
-using DevExpress.Pdf;
-
-namespace PdfProcessorPrinterOptions {
-    class Program {
-
-        static void Main(string[] args) {
+namespace PdfProcessorPrinterOptions
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
             // Create a Pdf Document Processor instance and load a PDF into it.
             PdfDocumentProcessor documentProcessor = new PdfDocumentProcessor();
-            documentProcessor.LoadDocument(@"..\..\Demo.pdf");
+            documentProcessor.LoadDocument(@"..\..\..\Demo.pdf");
 
             // Declare the PDF printer settings.
             PdfPrinterSettings pdfPrinterSettings = new PdfPrinterSettings();

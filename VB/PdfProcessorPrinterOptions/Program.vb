@@ -1,5 +1,3 @@
-' Developer Express Code Central Example:
-' How to use the PDF printer settings
 Imports DevExpress.Pdf
 
 Namespace PdfProcessorPrinterOptions
@@ -9,7 +7,7 @@ Namespace PdfProcessorPrinterOptions
         Shared Sub Main(ByVal args As String())
             ' Create a Pdf Document Processor instance and load a PDF into it.
             Dim documentProcessor As PdfDocumentProcessor = New PdfDocumentProcessor()
-            documentProcessor.LoadDocument("..\..\Demo.pdf")
+            documentProcessor.LoadDocument("..\..\..\Demo.pdf")
             ' Declare the PDF printer settings.
             Dim pdfPrinterSettings As PdfPrinterSettings = New PdfPrinterSettings()
             ' Specify the PDF printer settings.
